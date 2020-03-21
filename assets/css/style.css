@@ -1,0 +1,49 @@
+.container {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.felxbox-row1, .flexbox-row2, .flexbox-row3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 5%;
+}
+
+.felxbox-row1, .flexbox-row2  {
+    background: url('../images/background_Backjack.jpeg') ;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.felxbox-row1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.felxbox-row1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flexbox-row2 button {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flexbox-row2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, tr, td {
+    padding: 5px;
+    border: 1px solid black;
+}
